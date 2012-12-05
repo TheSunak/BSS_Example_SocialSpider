@@ -1,7 +1,7 @@
 SocialSpider::Application.routes.draw do
-  resources :tweets
+  resources :tweet_searches
 
-  root to: 'tweets#index'
+  root to: 'tweet_searches#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
